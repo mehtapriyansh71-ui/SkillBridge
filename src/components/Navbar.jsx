@@ -15,14 +15,6 @@ export default function Navbar() {
 
   return (
     <header className="navbar-header">
-      {/* Top prototype indicator notice */}
-      <div className="top-banner">
-        <div className="container banner-inner">
-          <span className="banner-badge">Prototype v0.1</span>
-          <span className="banner-text">Verified Employment Ecosystem for India's Informal Workforce • Demonstration Mode</span>
-        </div>
-      </div>
-
       <nav className="navbar" aria-label="Main Navigation">
         <div className="container nav-container">
           <a href="#home" className="brand-logo" onClick={(e) => handleNavClick(e, 'home')}>
